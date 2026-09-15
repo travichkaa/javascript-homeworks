@@ -14,6 +14,8 @@ if(userName === 'admin') {
         console.log('Вип-клиент');
     } else if(userBalance > 1000) {
         console.log('Постоянный покупатель');
+    } else {
+        console.log('Новый покупатель');
     }
 }
 
